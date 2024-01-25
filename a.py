@@ -15,7 +15,7 @@ def calculate_gpa(grades):
     average_score = total_score / len(grades)
     return average_score, calculate_grade(average_score)
 
-num_subjects = int(input("과목 수를 입력하세요: "))
+num_subjects = int(input("과목 수를 입력하세요!!: "))
 
 subject_grades = []
 for i in range(num_subjects):
