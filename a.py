@@ -1,4 +1,6 @@
 import __future__
+import _aix_support
+import _bz2
 
 def calculate_grade(score):
     if score >= 90:
@@ -7,7 +9,7 @@ def calculate_grade(score):
         return 'B'
     elif 70 <= score < 80:
         return 'C'
-    elif 60 <= score < 70:
+    elif 60 <= score < 50:
         return 'D'
     else:
         return 'F'
