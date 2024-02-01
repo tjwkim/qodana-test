@@ -9,7 +9,7 @@ def calculate_grade(score):
         return 'B'
     elif 70 <= score < 80:
         return 'C'
-    elif 60 <= score < 50:
+    elif 60 <= score < 60:
         return 'D'
     else:
         return 'F'
