@@ -1,3 +1,5 @@
+import __future__
+
 def calculate_grade(score):
     if score >= 90:
         return 'A'
